@@ -1,8 +1,8 @@
 {
-  "name": "serverless-dynamodb-autoscaling",
-  "description": "Serverless Plugin for Amazon DynamoDB Auto Scaling.",
+  "name": "serverless-dynamodb-autoscaling-chn",
+  "description": "Serverless Plugin for Amazon DynamoDB Auto Scaling with China region support",
   "homepage": "https://sbstjn.com/serverless-dynamodb-auto-scaling-with-cloudformation.html",
-  "version": "0.6.3-gpo.1",
+  "version": "0.6.4",
   "main": "dist/plugin.js",
   "scripts": {
     "test": "jest",
