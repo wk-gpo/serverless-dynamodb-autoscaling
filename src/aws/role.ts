@@ -60,8 +60,12 @@ export default class Role extends Resource {
   }
 
   private resource(): {} {
+    let arnAwsPrefix = 'aws';
+    if (this.options.region.indexOf('cn-') === 0) {
+      arnAwsPrefix += '-cn';
+    }
     return {
-      'Fn::Join': [ '', [ 'arn:aws:dynamodb:*:', { Ref: 'AWS::AccountId' }, ':table/', { Ref: this.options.table } ] ]
+      'Fn::Join': [ '', [ 'arn:', { Ref: arnAwsPrefix}, ':dynamodb:*:', { Ref: 'AWS::AccountId' }, ':table/', { Ref: this.options.table } ] ]
     }
   }
 
