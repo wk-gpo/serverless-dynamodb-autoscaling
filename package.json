@@ -1,7 +1,7 @@
 {
   "name": "serverless-dynamodb-autoscaling-chn",
   "description": "Serverless Plugin for Amazon DynamoDB Auto Scaling with China region support",
-  "homepage": "https://sbstjn.com/serverless-dynamodb-auto-scaling-with-cloudformation.html",
+  "homepage": "https://github.com/wk-gpo/serverless-dynamodb-autoscaling",
   "version": "0.6.4",
   "main": "dist/plugin.js",
   "scripts": {
@@ -28,10 +28,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sbstjn/serverless-dynamodb-autoscaling.git"
+    "url": "https://github.com/wk-gpo/serverless-dynamodb-autoscaling.git"
   },
   "bugs": {
-    "url": "https://github.com/sbstjn/serverless-dynamodb-autoscaling/issues"
+    "url": "https://github.com/wk-gpo/serverless-dynamodb-autoscaling/issues"
   },
   "devDependencies": {
     "@types/jest": "^20.0.5",

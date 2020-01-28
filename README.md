@@ -1,9 +1,7 @@
-# ⚡️ Serverless Plugin for DynamoDB Auto Scaling
+# ⚡️ Serverless Plugin for DynamoDB Auto Scaling with China region support
 
-[![npm](https://img.shields.io/npm/v/serverless-dynamodb-autoscaling.svg)](https://www.npmjs.com/package/serverless-dynamodb-autoscaling)
-[![CircleCI](https://img.shields.io/circleci/project/github/sbstjn/serverless-dynamodb-autoscaling/master.svg)](https://circleci.com/gh/sbstjn/serverless-dynamodb-autoscaling)
+[![npm](https://img.shields.io/npm/v/serverless-dynamodb-autoscaling-chn.svg)](https://www.npmjs.com/package/serverless-dynamodb-autoscaling-chn)
 [![license](https://img.shields.io/github/license/sbstjn/serverless-dynamodb-autoscaling.svg)](https://github.com/sbstjn/serverless-dynamodb-autoscaling/blob/master/LICENSE.md)
-[![Coveralls](https://img.shields.io/coveralls/sbstjn/serverless-dynamodb-autoscaling.svg)](https://coveralls.io/github/sbstjn/serverless-dynamodb-autoscaling)
 
 With this plugin for [serverless](https://serverless.com), you can enable DynamoDB Auto Scaling for tables and **Global Secondary Indexes** easily in your `serverless.yml` configuration file. The plugin supports multiple tables and indexes, as well as separate configuration for `read` and `write` capacities using Amazon's [native DynamoDB Auto Scaling](https://aws.amazon.com/blogs/aws/new-auto-scaling-for-amazon-dynamodb/).
 
