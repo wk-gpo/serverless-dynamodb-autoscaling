@@ -64,7 +64,7 @@ export default class Role extends Resource {
                 '',
                 [
                     'arn:',
-                    { Ref: arnAwsPrefix },
+                    arnAwsPrefix,
                     ':dynamodb:*:',
                     { Ref: 'AWS::AccountId' },
                     ':table/',

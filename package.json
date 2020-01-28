@@ -2,7 +2,7 @@
   "name": "serverless-dynamodb-autoscaling-chn",
   "description": "Serverless Plugin for Amazon DynamoDB Auto Scaling with China region support",
   "homepage": "https://github.com/wk-gpo/serverless-dynamodb-autoscaling",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "main": "dist/plugin.js",
   "scripts": {
     "test": "jest",

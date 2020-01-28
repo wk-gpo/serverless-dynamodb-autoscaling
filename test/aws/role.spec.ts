@@ -29,7 +29,7 @@ describe('Role', () => {
     expect(j).toHaveProperty('serviceDynamoDBAutoscaleRoleMyTableResourceIndexStageCnnorth')
     expect(j.serviceDynamoDBAutoscaleRoleMyTableResourceIndexStageCnnorth.Properties
       .Policies[0].PolicyDocument.Statement[1].Resource)
-      .toEqual({'Fn::Join': ['', ['arn:', {Ref: 'aws-cn'}, ':dynamodb:*:',
+      .toEqual({'Fn::Join': ['', ['arn:', 'aws-cn', ':dynamodb:*:',
       {Ref: 'AWS::AccountId'}, ':table/', {Ref: 'MyTableResource'}]]})
   })
 
